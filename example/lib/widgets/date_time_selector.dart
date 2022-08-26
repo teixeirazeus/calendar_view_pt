@@ -1,4 +1,4 @@
-import 'package:calendar_view/calendar_view.dart';
+import 'package:calendar_view_pt/calendar_view.dart';
 import 'package:flutter/material.dart';
 
 import '../extension.dart';

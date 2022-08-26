@@ -1,7 +1,9 @@
 import 'dart:ui';
 
-import 'package:calendar_view/calendar_view.dart';
+import 'package:calendar_view_pt/calendar_view.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_localizations/flutter_localizations.dart';
+import 'package:syncfusion_localizations/syncfusion_localizations.dart';
 
 import 'model/event.dart';
 import 'pages/mobile/mobile_home_page.dart';
@@ -22,6 +24,13 @@ class MyApp extends StatelessWidget {
       controller: EventController<Event>()..addAll(_events),
       child: MaterialApp(
         title: 'Flutter Calendar Page Demo',
+        localizationsDelegates: [
+          GlobalMaterialLocalizations.delegate,
+          GlobalWidgetsLocalizations.delegate,
+          SfGlobalLocalizations.delegate
+        ],
+        supportedLocales: [Locale('pt', 'BR')],
+        locale: Locale('pt'),
         debugShowCheckedModeBanner: false,
         theme: ThemeData.light(),
         scrollBehavior: ScrollBehavior().copyWith(

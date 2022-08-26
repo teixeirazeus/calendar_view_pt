@@ -30,8 +30,12 @@ dependencies:
   cupertino_icons: ^1.0.2
   intl:
   flutter_colorpicker: ^0.6.0
-  calendar_view:
-    path: ../
+  calendar_view_pt:
+    git:
+      url: https://github.com/teixeirazeus/calendar_view_pt
+  syncfusion_localizations: ^20.2.45
+  flutter_localizations:
+    sdk: flutter
 
 dev_dependencies:
   flutter_test:
