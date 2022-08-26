@@ -37,9 +37,8 @@ Para data e hour picker em portugues, veja o [exemplo](https://github.com/teixei
 3. Importe o pacote.
 
     ```dart
-    import 'package:calendar_view_pt/calendar_view.dart';
+    import 'package:calendar_view_pt/calendar_view_pt.dart';
     ```
-
 
 Para mais detalhes, veja o [calendar_view](https://github.com/SimformSolutionsPvtLtd/flutter_calendar_view).
 
