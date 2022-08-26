@@ -2,7 +2,7 @@
 // Use of this source code is governed by a MIT-style license
 // that can be found in the LICENSE file.
 
-library calendar_view;
+library calendar_view_pt;
 
 export './src/calendar_constants.dart';
 export './src/calendar_controller_provider.dart';

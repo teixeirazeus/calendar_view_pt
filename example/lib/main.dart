@@ -1,6 +1,6 @@
 import 'dart:ui';
 
-import 'package:calendar_view_pt/calendar_view.dart';
+import 'package:calendar_view_pt/calendar_view_pt.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:syncfusion_localizations/syncfusion_localizations.dart';
