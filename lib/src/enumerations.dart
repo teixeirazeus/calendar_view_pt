@@ -7,25 +7,25 @@
 /// Defines day of week
 enum WeekDays {
   /// Monday: 0
-  monday,
+  segunda,
 
   /// Tuesday: 1
-  tuesday,
+  terca,
 
   /// Wednesday: 2
-  wednesday,
+  quarta,
 
   /// Thursday: 3
-  thursday,
+  quinta,
 
   /// Friday: 4
-  friday,
+  sexta,
 
   /// Saturday: 5
-  saturday,
+  sabado,
 
   /// Sunday: 6
-  sunday,
+  domingo,
 }
 
 /// Defines different minute slot sizes.

@@ -111,7 +111,7 @@ class MonthView<T extends Object?> extends StatefulWidget {
 
   ///   /// Defines the day from which the week starts.
   ///
-  /// Default value is [WeekDays.monday].
+  /// Default value is [WeekDays.segunda].
   final WeekDays startDay;
 
   /// Main [Widget] to display month view.
@@ -135,7 +135,7 @@ class MonthView<T extends Object?> extends StatefulWidget {
     this.onCellTap,
     this.onEventTap,
     this.onDateLongPress,
-    this.startDay = WeekDays.monday,
+    this.startDay = WeekDays.segunda,
   }) : super(key: key);
 
   @override

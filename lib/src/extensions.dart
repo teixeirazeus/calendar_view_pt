@@ -34,7 +34,7 @@ extension DateTimeExtensions on DateTime {
       withoutTime.difference(date.withoutTime).inDays.abs();
 
   /// Gets difference of weeks between [date] and calling object.
-  int getWeekDifference(DateTime date, {WeekDays start = WeekDays.monday}) =>
+  int getWeekDifference(DateTime date, {WeekDays start = WeekDays.segunda}) =>
       (firstDayOfWeek(start: start)
                   .difference(date.firstDayOfWeek(start: start))
                   .inDays
@@ -49,7 +49,7 @@ extension DateTimeExtensions on DateTime {
   /// will return dates
   /// [6,7,8,9,10,11,12]
   /// Where on 6th there will be monday and on 12th there will be Sunday
-  List<DateTime> datesOfWeek({WeekDays start = WeekDays.monday}) {
+  List<DateTime> datesOfWeek({WeekDays start = WeekDays.segunda}) {
     // Here %7 ensure that we do not subtract >6 and <0 days.
     // Initial formula is,
     //    difference = (weekday - startInt)%7
@@ -73,18 +73,18 @@ extension DateTimeExtensions on DateTime {
   }
 
   /// Returns the first date of week containing the current date
-  DateTime firstDayOfWeek({WeekDays start = WeekDays.monday}) =>
+  DateTime firstDayOfWeek({WeekDays start = WeekDays.segunda}) =>
       withoutTime.subtract(Duration(days: (weekday - start.index - 1) % 7));
 
   /// Returns the last date of week containing the current date
-  DateTime lastDayOfWeek({WeekDays start = WeekDays.monday}) =>
+  DateTime lastDayOfWeek({WeekDays start = WeekDays.segunda}) =>
       withoutTime.add(Duration(days: 6 - (weekday - start.index - 1) % 7));
 
   /// Returns list of all dates of [month].
   /// All the dates are week based that means it will return array of size 42
   /// which will contain 6 weeks that is the maximum number of weeks a month
   /// can have.
-  List<DateTime> datesOfMonths({WeekDays startDay = WeekDays.monday}) {
+  List<DateTime> datesOfMonths({WeekDays startDay = WeekDays.segunda}) {
     final monthDays = <DateTime>[];
     for (var i = 1, start = 1; i < 7; i++, start += 7) {
       monthDays

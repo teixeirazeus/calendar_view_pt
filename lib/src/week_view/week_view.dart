@@ -131,7 +131,7 @@ class WeekView<T extends Object?> extends StatefulWidget {
 
   /// Defines the day from which the week starts.
   ///
-  /// Default value is [WeekDays.monday].
+  /// Default value is [WeekDays.segunda].
   final WeekDays startDay;
 
   /// Defines size of the slots that provides long press callback on area
@@ -167,7 +167,7 @@ class WeekView<T extends Object?> extends StatefulWidget {
     this.onDateLongPress,
     this.weekDays = WeekDays.values,
     this.showWeekends = true,
-    this.startDay = WeekDays.monday,
+    this.startDay = WeekDays.segunda,
     this.minuteSlotSize = MinuteSlotSize.minutes60,
   })  : assert((timeLineOffset) >= 0,
             "timeLineOffset must be greater than or equal to 0"),
@@ -402,8 +402,8 @@ class WeekViewState<T extends Object?> extends State<WeekView<T>> {
 
     if (!widget.showWeekends) {
       _weekDays
-        ..remove(WeekDays.saturday)
-        ..remove(WeekDays.sunday);
+        ..remove(WeekDays.sabado)
+        ..remove(WeekDays.domingo);
     }
 
     assert(
