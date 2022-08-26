@@ -6,19 +6,18 @@
 
 Este pacote é um fork do [calendar_view](https://github.com/SimformSolutionsPvtLtd/flutter_calendar_view) para suporte a lingua portuguesa.
 
-
+Para data e hour picker em portugues, veja o [exemplo](https://github.com/teixeirazeus/calendar_view_pt/blob/master/example/lib/main.dart).
 
 ## Preview
 
-![Preview](https://raw.githubusercontent.com/teixeirazeus/calendar_view_pt/readme_assets/calendario.png)
+![Preview](https://raw.githubusercontent.com/teixeirazeus/calendar_view_pt/master/readme_assets/calendario.png)
 
-![Preview](https://raw.githubusercontent.com/teixeirazeus/calendar_view_pt/readme_assets/data-picker.png)
+![Preview](https://raw.githubusercontent.com/teixeirazeus/calendar_view_pt/master/readme_assets/data-picker.png)
 
-![Preview](https://raw.githubusercontent.com/teixeirazeus/calendar_view_pt/readme_assets/hora-picker.png)
+![Preview](https://raw.githubusercontent.com/teixeirazeus/calendar_view_pt/master/readme_assets/hora-picker.png)
 
 
-
-## Installing
+## Instalação
 
 1. Adicione a dependencia no `pubspec.yaml`
 
