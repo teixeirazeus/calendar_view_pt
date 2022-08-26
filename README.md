@@ -1,10 +1,10 @@
 ![Plugin Banner](https://raw.githubusercontent.com/SimformSolutionsPvtLtd/flutter_calendar_view/master/readme_assets/plugin_banner.png)
 
-# calendar_view
+# calendar_view_pt
 
 [![Build](https://github.com/SimformSolutionsPvtLtd/flutter_calendar_view/workflows/Build/badge.svg?branch=master)](https://github.com/SimformSolutionsPvtLtd/flutter_calendar_view/actions) [![calendar_view](https://img.shields.io/pub/v/calendar_view?label=calendar_view)](https://pub.dev/packages/calendar_view)
 
-A Flutter package allows you to easily implement all calendar UI and calendar event functionality.
+Este pacote é um fork do [calendar_view](https://github.com/SimformSolutionsPvtLtd/flutter_calendar_view) para suporte a lingua portuguesa.
 
 For web demo
 visit [Calendar View Example](https://simformsolutionspvtltd.github.io/flutter_calendar_view/).
