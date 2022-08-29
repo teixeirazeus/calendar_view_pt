@@ -1,6 +1,6 @@
 name: calendar_view_pt
-description: A Flutter package allows you to easily implement all calendar UI and calendar event functionality.
-version: 1.0.0
+description: Pacote flutter com calendário em português.
+version: 1.0.1
 homepage: https://github.com/teixeirazeus/calendar_view_pt
 issue_tracker: https://github.com/teixeirazeus/calendar_view_pt/issues
 
