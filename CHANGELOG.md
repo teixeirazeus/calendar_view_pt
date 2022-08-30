@@ -1,3 +1,6 @@
+# [1.0.2 - 30 Aug 2022]
+- Melhor descrição de pacote
+
 # [1.0.0 - 12 Aug 2022](https://github.com/SimformSolutionsPvtLtd/flutter_calendar_view/tree/1.0.0)
 
 - **Breaking Changes**
